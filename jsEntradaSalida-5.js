@@ -3,20 +3,24 @@ ej.: "Usted se llama José y tiene 66 años" 	*/
 function Mostar()
 {	
 	var unaVariable="datos";
+
 	console.log("primer mensaje");
+
 	var otraVariable
+
 	console.info("mensaje:",unaVariable);
 
 	var miNombre;
 	var miEdad;
-	
+
 	miNombre=document.getElementById('elNombre').value;
 	console.info("linea final):",unaVariable);
 
 	miEdad=document.getElementById('laEdad').value;
-	console.info("linea final):",unaVariable);
 
-alert("usted se llama "+miNombre+"y tiene"+miEdad+" años");
+	console.info("linea final:",unaVariable);
+
+	alert("usted se llama "+miNombre+"y tiene"+miEdad+" años");
 
 }
-// esto no lo ve el usuario, lo vemos solo con F12
+
