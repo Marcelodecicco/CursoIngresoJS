@@ -3,42 +3,36 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
+{	
+	var numeroUno;
+	var numeroDos;
+	var sumar;
 
+	numeroUno=document.getElementById('numeroUno').value;
+	numeroDos=document.getElementById('numeroDos').value;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
+	sumar= numeroUno+numeroDos
 
-{	var numeroUno=33;
-var numeroDos="33";
-var suma;
-numeroUno=document.getElementById('numeroUno').value;
-numeroDos=document.getElementById('numeroDos').value;
-numeroUno= parseInt(numeroUno);
-numeroDos= parseInt(numeroDos);
-suma=numeroUno+numeroDos;
+	alert("la suma es" + sumar);
 
-suma=parseInt(numeroUno)+(numeroDos);
-alert(numeroUno+numeroDos);
-
-alert("la suma es"+suma);
-	
 }
 
 function restar()
-{   var numeroUno;
+{
+	var numeroUno;
 	var numeroDos;
 	var restar;
 
 	numeroUno=document.getElementById('numeroUno').value;
 	numeroDos=document.getElementById('numeroDos').value;
-numeroUno=(numeroUno);
-numeroDos=(numeroDos);
-resta=numeroUno-numeroDos;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
+	restar= numeroUno-numeroDos
 
-
-
-alert("la resta es" +resta); 
-// en el alert siempre va el mas, no cumple funcion de sumar
+	alert("la resta es" + restar);
 }
 
-// ATENCION: el ParseInt solo sirve para SUMAR PORQUE LA SUMA CONTATENAR Y LOS OTROS SOLO OPERACION MATEMATICA
 function multiplicar()
 { 
 	var numeroUno;
@@ -47,31 +41,25 @@ function multiplicar()
 
 	numeroUno=document.getElementById('numeroUno').value;
 	numeroDos=document.getElementById('numeroDos').value;
-numeroUno=(numeroUno);
-numeroDos=(numeroDos);
-multiplicar=numeroUno*numeroDos;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
+	multiplicar= numeroUno*numeroDos
 
-
-
-alert("la multiplicacion es" +multiplicar);
-	
+	alert("la multiplicacion es" + multiplicar);
 }
 
 function dividir()
-
 {
-    var numeroUno;
+var numeroUno;
 	var numeroDos;
 	var dividir;
 
 	numeroUno=document.getElementById('numeroUno').value;
 	numeroDos=document.getElementById('numeroDos').value;
-numeroUno= parseInt(numeroUno);
-numeroDos= parseInt(numeroDos);
-dividir=numeroUno/numeroDos;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
+	dividir= numeroUno/numeroDos
 
-
-
-alert("la division es" +dividir);	
+	alert("la division es" + dividir);	
 }
 

@@ -3,10 +3,13 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostrar el resto entre el dividendo y el divisor.
 ej.: "El resto es 0 ."*/
 function SacarResto()
-
-// RESTO ES LO QUE QUEDA
 {
-	var resto= 2%10;
+	var resto= 6%10;
 	alert(resto);
 	
+
+
+
+
+
 }
