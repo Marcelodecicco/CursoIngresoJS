@@ -5,5 +5,9 @@
 function Mostar()
 {
 	
+    var elNombre; 
+	elNombre=prompt("por favor ingrese el nombre");
+	document.getElementById("elNombre").value=mitexto;
+
 }
 
