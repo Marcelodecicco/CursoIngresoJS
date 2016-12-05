@@ -4,18 +4,32 @@ mostrar el importe con un aumento del 10 %
 en el cuadro de texto "RESULTADO".*/
 function MostrarAumento()
 {
- 
-	var porcentaje ;
-	var precio=100;
-	var precioFinal;
 
-	var aumento; 
-	aumento=precio *0.21; 
-	precioFinal=precio+aumento;
-	/*aumento=precio *0.21;
-	precioFinal=precio+aumento;*/
-	precioFinal=precio*1.21;
+	var importe;
+	
+	importe=document.getElementById('sueldo').value;
+	importe=parseInt(importe);
+	importe=importe*1.10
 
+	document.getElementById('resultado').value=importe;
+
+
+
+
+	/* otra opcion
+
+    var precio;
+    var aumento;
+    var precioFinal;
+    precio= document.getElementById('sueldo').value;
+    aumento= precio *10/100;
+    precio= parseInt(precio);
+    aumento= parseInt(aumento);
+    precioFinal= precio+aumento;
+    document.getElementById('resultado').value =precioFinal;
+
+*/
+	
+
+	
 }
-
-// REVISARRRR
